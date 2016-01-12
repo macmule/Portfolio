@@ -19,13 +19,16 @@ from email.mime.text import MIMEText
 # Get Script Name
 scriptName =  os.path.basename(sys.argv[0])
 
-# Variables
+# Variables to set manually
 serverLogPath = ''
 mediaDelegateLogPath = ''
-logFileFullPath = os.path.join('/private/var/tmp/', os.path.basename(sys.argv[0]) + '.log')
+logFilePath = ''
 mailServer = ''
 mailFrom = ''
 mailTo = ''
+
+# Set log to name of script
+logFileFullPath = os.path.join(logFilePath, os.path.basename(sys.argv[0]) + '.log')
 
 # Empty lists
 badFormatFiles = []
