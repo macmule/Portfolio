@@ -104,7 +104,7 @@ try:
 				corruptFiles.append(entry.split(':')[1].rstrip().strip())
 		elif 'No workfile produced from' in entry:
 			# Grab the files path & add to the corruptFiles list
-			corruptFiles.append(ntry.split('No workfile produced from')[1].strip().split('Ghostscript output')[0])
+			corruptFiles.append(entry.split('No workfile produced from')[1].strip().split('Ghostscript output')[0])
 
 	# Remove duplicates from the list & order
 	corruptFiles = sorted(set(corruptFiles))
