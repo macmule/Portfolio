@@ -14,13 +14,16 @@ scriptName =  os.path.basename(sys.argv[0])
 # Yesterdays date
 yesterday = str(date.today() - timedelta(1))
 
-# Variables
+# Variables to set manually
 serverLogPath = ''
 mediaDelegateLogPath = ''
-logFileFullPath = os.path.join('', os.path.basename(sys.argv[0]) + '.log')
+logFilePath = ''
 mailServer = ''
 mailFrom = ''
 mailTo = ''
+
+# Set log to name of script
+logFileFullPath = os.path.join(logFilePath, os.path.basename(sys.argv[0]) + '.log')
 
 # Empty lists
 badFormatFiles = []
