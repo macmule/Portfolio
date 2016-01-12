@@ -68,7 +68,7 @@ except:
 	# Try todays file
 	try:
 		# Read contents pof the log file
-		serverLog = open('/Applications/Extensis/Portfolio Server/logs/server.log', 'r')
+		serverLog = open(serverLogPath, 'r')
 		logging.info('----- server.log did not rotate, checking todays ------')
 	# If the file cannot be found error
 	except:
@@ -83,7 +83,7 @@ except:
 	# Try todays file
 	try:
 		# Read contents pof the log file
-		mediaDelegateLog = open('/Applications/Extensis/Portfolio Server/logs/media-delegate.log', 'r')
+		mediaDelegateLog = open(mediaDelegateLogPath, 'r')
 		logging.info('----- media-delegate.log did not rotate, checking todays ------')
 	# If the file cannot be found error
 	except:
