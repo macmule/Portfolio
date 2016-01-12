@@ -24,10 +24,10 @@ scriptName =  os.path.basename(sys.argv[0])
 yesterday = str(date.today() - timedelta(1))
 
 # Variables to set manually
-serverLogPath = ''
-mediaDelegateLogPath = ''
-logFilePath = ''
-mailServer = ''
+serverLogPath = '' 		# Path to Portfolio' Server.log file
+mediaDelegateLogPath = '' 	# Path to Portfolio's media-delegate file
+logFilePath = '' 		# Path to write this scripts log file to
+mailServer = '' 
 mailFrom = ''
 mailTo = ''
 
