@@ -1,4 +1,13 @@
 #!/usr/bin/env python
+####################################################################################################
+#
+# More information: https://macmule.com/2016/01/11/portfolio-parsing-logs-to-find-troublesome-files
+#
+# GitRepo: https://github.com/macmule/Portfolio/
+#
+# License: http://macmule.com/license/
+#
+####################################################################################################
 
 import logging
 import os
