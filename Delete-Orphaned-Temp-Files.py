@@ -78,7 +78,7 @@ for item in os.listdir(logDir):
 # If we have oldLogFiles to delete
 if len(oldLogFiles):
 	# Log the number
-	logging.warning('----- %s Log files to be deleted' % (len(oldLogFiles)))
+	logging.warning('----- %s Log files deleted' % (len(oldLogFiles)))
 	# Try so we stop if there's an issue
 	try:
 		# For each folder in the oldLogFiles dict
@@ -117,7 +117,7 @@ for item in os.listdir(tmpDir):
 # If we have oldWorkFolders to delete
 if len(oldMagickFiles):
 	# Log the number
-	logging.warning('----- %s Magick files to be deleted' % (len(oldMagickFiles)))
+	logging.warning('----- %s Magick files deleted' % (len(oldMagickFiles)))
 	# Try so we stop if there's an issue
 	try:
 		# For each file in the oldWorkFolders dict
@@ -154,7 +154,7 @@ for item in os.listdir(workDir):
 # If we have oldWorkFolders to delete
 if len(oldWorkFolders):
 	# Log the number
-	logging.warning('----- %s Work folders to be deleted' % (len(oldWorkFolders)))
+	logging.warning('----- %s Work folders deleted' % (len(oldWorkFolders)))
 	# Try so we stop if there's an issue
 	try:
 		# For each folder in the oldWorkFolders dict
