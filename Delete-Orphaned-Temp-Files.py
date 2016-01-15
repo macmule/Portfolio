@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 ####################################################################################################
 #
-# More information: https://macmule.com/2016/01/16/deleting-portfolios-old-temp-files
+# More information: https://macmule.com/2016/01/16/deleting-portfolios-orphaned-temp-files
 #
 # GitRepo: https://github.com/macmule/Portfolio/
 #
