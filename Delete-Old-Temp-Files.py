@@ -26,9 +26,9 @@ tmpDir = '/private/var/tmp/'
 workDir = '/Applications/Extensis/Portfolio Server/data/work/'
 chosenDaysAgo = date.today() - timedelta(5)
 logFileFullPath = os.path.join('/private/var/tmp/', os.path.basename(sys.argv[0]) + '.log')
-mailServer = 'mail.pentland.com'
-mailFrom = 'portfolio@LS-MAC-DAM-01.pentland.com'
-mailTo = 'ben.toms@pentland.com'
+mailServer = ''
+mailFrom = ''
+mailTo = ''
 
 # Empty Lists
 oldWorkFolders = {}
